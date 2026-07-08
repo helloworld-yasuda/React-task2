@@ -12,8 +12,7 @@ const App = () => {
             role={employee.role}
             email={employee.email}
             />
-        ))
-        }
+        ))}
       </div>
   )
 }
