@@ -7,10 +7,10 @@ const App = () => {
         <h1>Employees</h1>
         {employees.map((employee) => (
           <EmployeeCard
-            key = {employee.id}
-            name = {employee.name}
-            role = {employee.role}
-            email = {employee.email}
+            key={employee.id}
+            name={employee.name}
+            role={employee.role}
+            email={employee.email}
             />
         ))
         }
